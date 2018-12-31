@@ -30,6 +30,4 @@ app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db) }
 app.put('/img', (req, res) => { img.handleImg(req, res, db) });
 app.post('/imgurl', (req, res) => { img.handleApiCall(req, res) });
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`app running on port ${process.env.PORT}`);
-});
+app.listenlisten(process.env.PORT || 5000);
