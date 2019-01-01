@@ -9,7 +9,7 @@ const handleApiCall = (req, res) => {
     .then(data => {
         res.json(data);
     })
-    .catch(err => console.log(err));
+    .catch(err => res.status(400).json('unable to connect to API'));
 }
 
 const handleImg = (req, res, db) => {
