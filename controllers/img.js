@@ -25,6 +25,5 @@ const handleImg = (req, res, db) => {
 }
 
 module.exports = {
-    handleImg,
-    handleApiCall
+    handleImg
 }
