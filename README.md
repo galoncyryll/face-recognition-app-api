@@ -8,4 +8,4 @@ Project for Udemy course by Andrei
 
 You can grab Clarifai API key [here](https://clarifai.com)
 
-** Make sure you use postgreSQL instead of mySQL for this code base.
+** Make sure you use postgreSQL instead of mySQL for this code base. **
