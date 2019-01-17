@@ -9,7 +9,7 @@ const handleApiCall = (req, res) => {
     .then(data => {
         res.json(data);
     })
-    .catch(err => res.status(400).json(err));
+    .catch(err => console.log(err));
 }
 
 const handleImg = (req, res, db) => {
