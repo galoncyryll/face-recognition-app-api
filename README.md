@@ -1,5 +1,5 @@
 # Face-Recognition-App-api
-Project for Udemy course by Andrei
+API for face recognition app
 
 ## Tools and Technologies used
 * NodeJS
